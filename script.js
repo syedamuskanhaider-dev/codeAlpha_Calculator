@@ -23,17 +23,17 @@ buttons.forEach(button => {
             case "=":
                 try {
 
-                   let result = expression
-    .replace(/×/g, "*")
-    .replace(/÷/g, "/")
-    .replace(/−/g, "-");
+                    let result = expression
+                        .replace(/×/g, "*")
+                        .replace(/÷/g, "/")
+                        .replace(/−/g, "-");
 
-// Reject consecutive operators
-if (/[\+\-\*\/%]{2,}/.test(result)) {
-    throw new Error("Invalid expression");
-}
+                    // Reject consecutive operators
+                    if (/[\+\-\*\/%]{2,}/.test(result)) {
+                        throw new Error("Invalid expression");
+                    }
 
-display.value = eval(result);
+                    display.value = eval(result);
                 } catch {
 
                     display.value = "Error";
