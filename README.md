@@ -9,13 +9,7 @@ A modern, responsive, and interactive calculator built using **HTML, CSS, and Ja
 
 https://your-username.github.io/CodeAlpha_Calculator/
 
----
 
-## 📸 Screenshot
-
-![Calculator Screenshot](assets/Screenshot.png)
-
----
 
 ## ✨ Features
 
@@ -43,8 +37,7 @@ CodeAlpha_Calculator/
 │── style.css
 │── script.js
 │── README.md
-│── assets/
-│     └── Screenshot.png
+
 
 ---
 
