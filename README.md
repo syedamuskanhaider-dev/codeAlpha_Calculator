@@ -13,9 +13,7 @@ https://your-username.github.io/CodeAlpha_Calculator/
 
 ## 📸 Screenshot
 
-
-
-assets/screenshot.png
+![Calculator Screenshot](assets/Screenshot.png)
 
 ---
 
@@ -46,7 +44,7 @@ CodeAlpha_Calculator/
 │── script.js
 │── README.md
 │── assets/
-│     └── screenshot.png
+│     └── Screenshot.png
 
 ---
 
